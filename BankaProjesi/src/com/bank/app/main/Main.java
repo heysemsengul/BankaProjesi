@@ -48,7 +48,7 @@ public class Main {
         //kredi kartı borcu ödeme simülasyonu
         kart.setGuncelBorc(1500); //borç belirliyoruz
         System.out.println("Borç tanımlanması sonrası " + kart);
-        vadesizHesap.krediKartBorcOdeme(kart, 1500);
+        vadesizHesap.krediKartiBorcOdeme(kart, 1500);
         System.out.println("Borç ödeme sonrası " + kart);
         //borcu hesaptan çektiği için onuda gösterelim
         System.out.println("Borç ödeme sonrası hesap: " + vadesizHesap);
