@@ -16,7 +16,7 @@ public class VadesizHesap extends Hesap{
         //gönderenden yazılan miktarı azaltıp
         //alandanda argelen miktar kadar arttırıyoz
 	}
-	public void krediKartBorcOdeme(KrediKarti kart, double miktar) {
+	public void krediKartiBorcOdeme(KrediKarti kart, double miktar) {
 	    setBakiye(getBakiye() - miktar);
 	    kart.setGuncelBorc(kart.getGuncelBorc() - miktar);
 	    // hesaptan miktarı düşüp kartın borcunu azaltıyoz
