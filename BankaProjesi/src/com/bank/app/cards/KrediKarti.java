@@ -34,7 +34,11 @@ public class KrediKarti {
 	public void setLimit(double limit) {this.limit = limit;}
 	
 	public double getGuncelBorc() {return guncelBorc;}
-	public void setGuncelBorc(double guncelBorc) {this.guncelBorc = guncelBorc;}
+	//önemli ayrıntı
+	public void setGuncelBorc(double guncelBorc) {
+		this.guncelBorc = guncelBorc;
+		this.kullanilabilirLimit = limit - guncelBorc;
+	}
 	
 	public double getKullanilabilirLimit() {return kullanilabilirLimit;}
 	public void setKullanilabilirLimit(double kullanilabilirLimit) {this.kullanilabilirLimit = kullanilabilirLimit;}
