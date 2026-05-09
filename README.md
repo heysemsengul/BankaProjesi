@@ -1,5 +1,6 @@
 # BankaProjesi
-Bursa Teknik Üniversitesi Proje Ödevi
+Bursa Teknik Üniversitesi  
+Nesneye Yönelik Programlama Dersi Proje Ödevi
 
 # Öğrenci Bilgileri
 İsim: Heysem Şengül  
